@@ -1,6 +1,6 @@
 import { Injectable } from  '@angular/core';
 import { HttpClient } from  '@angular/common/http';
-import { Observable } from  'rxjs';
+import { map, Observable } from  'rxjs';
 import { Cocktail } from './models/cocktail.model';
 
 @Injectable({providedIn:  'root'})
@@ -15,7 +15,11 @@ export  class  CocktailService{
 
     public  getCocktails():  Observable<Cocktail[]> {
         const  cocktails:Observable<any> = this.service.get("assets/cocktailList.json");
+        const  treatment  = ( param_data:Cocktail[]) => {
+            return  param_data  as  Cocktail[];
+        };
+
        
-        return  cocktails;
+        return  cocktails.pipe( map( treatment) );
     }
 }
