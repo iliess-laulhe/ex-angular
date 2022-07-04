@@ -1,0 +1,21 @@
+
+[
+{
+    "name":"mojito",
+    "price":8,
+    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROIzxSFSWltaqtvaFKG7HR7fu_Z283IGCF_g&usqp=CAU"
+
+},
+{
+    "name":"pina colada",
+    "price":6,
+    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ70zH4JbDrJvu2rgJXrSp9dcHNZ-eO2CbFnw&usqp=CAU"
+
+},
+{
+    "name":"Margarita",
+    "price":10,
+    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRLKXgrjVlVt7n2srIKdZd_7nZ3-uvpSIqGg&usqp=CAU"
+
+}
+]
